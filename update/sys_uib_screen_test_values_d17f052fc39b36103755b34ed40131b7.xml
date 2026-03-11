@@ -1,19 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent/>
-        <macroponent_config/>
+        <macroponent_config>{
+    "5865e308432021105571609dc7b8f23b": {
+        "allRecordsSelected": false,
+        "columnFilteringPopoverDisplay": "",
+        "columnLimit": 0,
+        "columnPreferenceKey": "",
+        "columns": "number,short_description,u_when_needed,u_request_type,u_requested_for",
+        "currentPage": 0,
+        "enableCardClickOpen": false,
+        "enableCellFiltering": true,
+        "enableColumnFiltering": true,
+        "enableColumnGrouping": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": true,
+        "enableDotWalk": true,
+        "enableInfiniteScroll": false,
+        "enableLiveList": false,
+        "enableOnlySingleSelection": false,
+        "enableQuickEdit": false,
+        "enableQuickFormNavigation": false,
+        "enableReferenceLinks": true,
+        "enforceViewRulesForQuickForm": false,
+        "fetchHighlightedValues": true,
+        "filter": "active=true^ORDERBYnumber",
+        "fixedFilter": "active=true",
+        "groupBy": "",
+        "listControllerId": "rEg5z47UQAEyq96wPzkKQkt6j",
+        "listId": null,
+        "listType": "simple",
+        "liveUpdates": "off",
+        "nestBy": "",
+        "onlyEnableSelectionWhenRequiredByActions": true,
+        "pageSysId": "957f052fc39b36103755b34ed401319e",
+        "rowLimit": 10,
+        "showListOpenedByLinkSection": null,
+        "table": "x_58872_needit_needit",
+        "view": ""
+    },
+    "table": "task",
+    "sysId": "edc1ec9179d672108bb291bde809c9c2"
+}</macroponent_config>
         <screen display_value="NeedIt Admin home (FJA)">9d7f052fc39b36103755b34ed40131b1</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-04 09:11:06</sys_created_on>
         <sys_id>d17f052fc39b36103755b34ed40131b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_d17f052fc39b36103755b34ed40131b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-04 09:11:06</sys_updated_on>
+        <sys_updated_on>2026-03-09 12:43:13</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

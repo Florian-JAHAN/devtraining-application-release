@@ -3,10 +3,10 @@
         <active>true</active>
         <app_config display_value="NeedIt Experience">e14d0de7c39b36103755b34ed40131e1</app_config>
         <description/>
-        <disable_auto_reflow>true</disable_auto_reflow>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <disable_interoperable>false</disable_interoperable>
         <event_mappings>[]</event_mappings>
-        <macroponent display_value="NeedIt User home (FJA)">f1036058c36732103755b34ed4013173</macroponent>
+        <macroponent display_value="Default">8a0b0099c36ff6103755b34ed40131e4</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",
@@ -37,28 +37,28 @@
         "value": "y"
     }
 }</macroponent_config>
-        <name>NeedIt User home (FJA)</name>
+        <name>Default</name>
         <order>0</order>
         <parent_macroponent display_value="UXR Base Experience Shell">76a83a645b122010b913030a1d81c780</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="Home">5d7f012fc39b36103755b34ed40131ef</screen_type>
+        <screen_type display_value="Record_FJA">ca0b4c59c36ff6103755b34ed401310b</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-06 13:52:26</sys_created_on>
+        <sys_created_on>2026-03-09 14:41:31</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>86036458c36732103755b34ed40131d8</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>NeedIt User home (FJA)</sys_name>
+        <sys_id>de0b4099c36ff6103755b34ed4013108</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ux_screen_86036458c36732103755b34ed40131d8</sys_update_name>
+        <sys_update_name>sys_ux_screen_de0b4099c36ff6103755b34ed4013108</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-10 16:04:31</sys_updated_on>
+        <sys_updated_on>2026-03-09 16:06:08</sys_updated_on>
     </sys_ux_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=86036458c36732103755b34ed40131d8"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=de0b4099c36ff6103755b34ed4013108"/>
 </record_update>
