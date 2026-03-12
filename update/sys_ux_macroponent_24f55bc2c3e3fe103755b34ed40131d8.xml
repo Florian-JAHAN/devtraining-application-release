@@ -101,12 +101,52 @@
         "isNonDestructive": false,
         "items": [],
         "overrides": null,
-        "preset": {
-            "controllerElementId": "record",
-            "disabledEventTargetIds": [],
-            "id": "b76d5b8043432110379ea5dccbb8f297"
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "contents": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "fields": {},
+                    "route": ""
+                }
+            },
+            "disableDismiss": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "displayOptions": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "enableResizable": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "resizableMaxHeight": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMaxWidth": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "resizableMinHeight": {
+                "type": "JSON_LITERAL",
+                "value": 133
+            },
+            "resizableMinWidth": {
+                "type": "JSON_LITERAL",
+                "value": 420
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
         },
-        "propertyValues": {},
         "slot": null,
         "styles": {
             "width": "100%"
@@ -167,12 +207,49 @@
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
-                                "preset": {
-                                    "controllerElementId": "record",
-                                    "id": "2c9b775ba59d59482acacfd67c793517"
-                                },
+                                "preset": null,
                                 "propertyValues": {
-                                    "configAria": {}
+                                    "animatedIcon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "configAria": {},
+                                    "disabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "icon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "label": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Button"
+                                        }
+                                    },
+                                    "landmark": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "size": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "md"
+                                    },
+                                    "tooltipContent": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Enter a label"
+                                        }
+                                    },
+                                    "variant": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "secondary"
+                                    }
                                 },
                                 "slot": null,
                                 "styles": null
@@ -194,11 +271,73 @@
                                     "type": "JSON_LITERAL",
                                     "value": null
                                 },
-                                "preset": {
-                                    "controllerElementId": "record",
-                                    "id": "d47e3591999fa213338037c11623e30f"
+                                "preset": null,
+                                "propertyValues": {
+                                    "bare": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "disableCollapse": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "displayMode": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "read-only"
+                                    },
+                                    "forcedViewName": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "inPopover": {
+                                        "type": "JSON_LITERAL",
+                                        "value": null
+                                    },
+                                    "inUiBuilder": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "isSectionTitleHidden": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "isShowLoader": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "labelValueLayout": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "tabbed"
+                                    },
+                                    "labelValueLayoutSize": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "md"
+                                    },
+                                    "query": {
+                                        "type": "JSON_LITERAL",
+                                        "value": ""
+                                    },
+                                    "readOnlyForm": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
+                                    "sysId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "-1"
+                                    },
+                                    "table": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "incident"
+                                    },
+                                    "view": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "ess"
+                                    },
+                                    "workspaceConfigId": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "7b24ceae5304130084acddeeff7b12a3"
+                                    }
                                 },
-                                "propertyValues": {},
                                 "slot": null,
                                 "styles": null
                             }
@@ -253,12 +392,25 @@
                 }
             ]
         },
-        "preset": {
-            "controllerElementId": "record",
-            "id": "79ebea45f4861cca5a2606fb0217d3a6"
-        },
+        "preset": null,
         "propertyValues": {
             "configAria": {},
+            "disableScroll": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "focusPanel": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "hideTail": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "positioningToTrigger": {
+                "type": "JSON_LITERAL",
+                "value": "auto"
+            },
             "positions": {
                 "type": "JSON_LITERAL"
             }
@@ -651,104 +803,27 @@
                 "value": false
             },
             "primaryValue": {
-                "type": "TRANSLATION_LITERAL",
-                "value": {
-                    "code": null,
-                    "comment": "",
-                    "message": "My Next NeedIt FJA"
-                }
+                "binding": {
+                    "address": [
+                        "add_user_to_text_string__fja__1",
+                        "output"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
             },
             "recordTags": {
                 "type": "JSON_LITERAL",
                 "value": null
             },
             "secondaryItems": {
-                "container": [
-                    {
-                        "container": {
-                            "displayValue": {
-                                "type": "TRANSLATION_LITERAL",
-                                "value": {
-                                    "code": null,
-                                    "comment": "",
-                                    "message": "Example value 1"
-                                }
-                            },
-                            "fieldLabel": {
-                                "type": "TRANSLATION_LITERAL",
-                                "value": {
-                                    "code": null,
-                                    "comment": "",
-                                    "message": "Example 1"
-                                }
-                            },
-                            "type": {
-                                "type": "JSON_LITERAL",
-                                "value": "simple"
-                            }
-                        },
-                        "type": "MAP_CONTAINER"
-                    },
-                    {
-                        "container": {
-                            "displayValue": {
-                                "type": "TRANSLATION_LITERAL",
-                                "value": {
-                                    "code": null,
-                                    "comment": "",
-                                    "message": "Example value 2"
-                                }
-                            },
-                            "fieldLabel": {
-                                "type": "TRANSLATION_LITERAL",
-                                "value": {
-                                    "code": null,
-                                    "comment": "",
-                                    "message": "Example 2"
-                                }
-                            },
-                            "type": {
-                                "type": "JSON_LITERAL",
-                                "value": "highlighted"
-                            }
-                        },
-                        "type": "MAP_CONTAINER"
-                    },
-                    {
-                        "container": {
-                            "displayValue": {
-                                "type": "TRANSLATION_LITERAL",
-                                "value": {
-                                    "code": null,
-                                    "comment": "",
-                                    "message": "Example value 3"
-                                }
-                            },
-                            "fieldLabel": {
-                                "type": "TRANSLATION_LITERAL",
-                                "value": {
-                                    "code": null,
-                                    "comment": "",
-                                    "message": "Example 3"
-                                }
-                            },
-                            "sysId": {
-                                "type": "JSON_LITERAL",
-                                "value": "ed92e8d173d023002728660c4cf6a7bc"
-                            },
-                            "table": {
-                                "type": "JSON_LITERAL",
-                                "value": "incident"
-                            },
-                            "type": {
-                                "type": "JSON_LITERAL",
-                                "value": "reference"
-                            }
-                        },
-                        "type": "MAP_CONTAINER"
-                    }
-                ],
-                "type": "LIST_CONTAINER"
+                "binding": {
+                    "address": [
+                        "next_needit_form_FJA",
+                        "nowRecordCommonHeader",
+                        "secondaryItems"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
             },
             "subHeadingValue": {
                 "binding": {
@@ -767,7 +842,7 @@
                     "apiVersion": "2.0.0",
                     "controllerElementId": null,
                     "inlineScript": null,
-                    "scriptSysId": "1b9caac2c3afbe103755b34ed4013112",
+                    "scriptSysId": "3cf59bc2c3e3fe103755b34ed40131e1",
                     "target": null
                 },
                 "type": "CLIENT_TRANSFORM_SCRIPT"
@@ -3866,12 +3941,19 @@
                             }
                         ]
                     },
-                    "preset": {
-                        "controllerElementId": "record",
-                        "disabledEventTargetIds": [],
-                        "id": "8bbec89bce311554517350ae545d6a9b"
-                    },
+                    "preset": null,
                     "propertyValues": {},
+                    "repeatWith": {
+                        "type": "JSON_LITERAL",
+                        "value": [
+                            {
+                                "task": "A"
+                            },
+                            {
+                                "task": "B"
+                            }
+                        ]
+                    },
                     "slot": null,
                     "styles": null
                 },
@@ -5062,7 +5144,7 @@
                                                                         "conditional": null,
                                                                         "declarativeAction": null,
                                                                         "event": {
-                                                                            "apiName": "x_58872_needit.NAV_ITEM_SELECTED_RELAY_957f052fc39b36103755b34ed401319e",
+                                                                            "apiName": "x_58872_needit.NAV_ITEM_SELECTED_RELAY_24f55bc2c3e3fe103755b34ed40131d8",
                                                                             "payload": {
                                                                                 "script": {
                                                                                     "apiVersion": "1.0.0",
@@ -8102,673 +8184,6 @@
         "readEvaluationMode": "EAGER"
     },
     {
-        "bundleLinks": [
-            {
-                "bundleInstanceId": "form_1",
-                "elementType": "controller",
-                "originalElementId": "record"
-            }
-        ],
-        "definition": {
-            "id": "029f04e053610110ac9bddeeff7b1294",
-            "type": "CONTROLLER"
-        },
-        "dependencies": {},
-        "elementId": "record",
-        "elementLabel": "Form Controller",
-        "eventMappings": [
-            {
-                "eventMappingId": "form_ctrl_handle_popover_open_requested",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#POPOVER_OPEN_REQUESTED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_now_record_form.CTRL_RECORD#POPOVER_OPEN_REQUESTED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "bundleLinks": [
-                            {
-                                "bundleInstanceId": "form_1",
-                                "elementType": "eventMappingTarget"
-                            }
-                        ],
-                        "clientScript": null,
-                        "declarativeAction": null,
-                        "event": {
-                            "apiName": "sn_uxf.MACROPONENT_POPOVER_OPEN_REQUESTED",
-                            "payload": {
-                                "container": {
-                                    "popoverElementId": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "[component-id$='reference_info_popover']"
-                                    },
-                                    "popoverTargetElementId": {
-                                        "binding": {
-                                            "address": [
-                                                "popoverTriggerElement",
-                                                "nowId"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "popoverTriggerElement": {
-                                        "binding": {
-                                            "address": [
-                                                "popoverTriggerElement"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    }
-                                },
-                                "type": "MAP_CONTAINER"
-                            }
-                        },
-                        "operation": null,
-                        "targetId": "formOpenPopover",
-                        "type": "EVENT"
-                    }
-                ]
-            },
-            {
-                "eventMappingId": "global_event_screen_status_changed_mapping",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#SCREEN_STATUS_CHANGED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_now_record_form.CTRL_RECORD#SCREEN_STATUS_CHANGED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "bundleLinks": [
-                            {
-                                "bundleInstanceId": "form_1",
-                                "elementType": "eventMappingTarget"
-                            }
-                        ],
-                        "clientScript": null,
-                        "conditional": {
-                            "operation": {
-                                "left": {
-                                    "binding": {
-                                        "address": [
-                                            "record",
-                                            "inputs",
-                                            "isMappedToAppShell"
-                                        ]
-                                    },
-                                    "type": "DATA_OUTPUT_BINDING"
-                                },
-                                "operator": "EQUAL",
-                                "right": {
-                                    "type": "JSON_LITERAL",
-                                    "value": true
-                                }
-                            },
-                            "type": "BINARY"
-                        },
-                        "declarativeAction": null,
-                        "event": {
-                            "apiName": "sn_canvas_core.SCREEN_STATUS_CHANGED",
-                            "payload": {
-                                "container": {
-                                    "hasUpdate": {
-                                        "binding": {
-                                            "address": [
-                                                "hasUpdate"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "icon": {
-                                        "binding": {
-                                            "address": [
-                                                "icon"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "isDirty": {
-                                        "binding": {
-                                            "address": [
-                                                "isDirty"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "message": {
-                                        "binding": {
-                                            "address": [
-                                                "message"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "primaryItem": {
-                                        "binding": {
-                                            "address": [
-                                                "primaryItem"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "screenKey": {
-                                        "binding": {
-                                            "address": [
-                                                "screenKey"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "screenParams": {
-                                        "binding": {
-                                            "address": [
-                                                "screenParams"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "secondaryItems": {
-                                        "binding": {
-                                            "address": [
-                                                "secondaryItems"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "status": {
-                                        "binding": {
-                                            "address": [
-                                                "status"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "title": {
-                                        "binding": {
-                                            "address": [
-                                                "title"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "tooltipPreview": {
-                                        "binding": {
-                                            "address": [
-                                                "tooltipPreview"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    }
-                                },
-                                "type": "MAP_CONTAINER"
-                            },
-                            "sysId": "f71f58643791ec0183da148626eb757d"
-                        },
-                        "operation": null,
-                        "targetId": "clfsrusbggaacchaaddbhhthqjjjjvffe",
-                        "type": "EVENT"
-                    }
-                ]
-            },
-            {
-                "eventMappingId": "form_ctrl_handle_update_configuration_menu_requested",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#UPDATE_CONFIGURATION_MENU_REQUESTED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_now_record_form.CTRL_RECORD#UPDATE_CONFIGURATION_MENU_REQUESTED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "bundleLinks": [
-                            {
-                                "bundleInstanceId": "form_1",
-                                "elementType": "eventMappingTarget"
-                            }
-                        ],
-                        "clientScript": null,
-                        "conditional": {
-                            "operation": {
-                                "left": {
-                                    "binding": {
-                                        "address": [
-                                            "record",
-                                            "inputs",
-                                            "isMappedToAppShell"
-                                        ]
-                                    },
-                                    "type": "DATA_OUTPUT_BINDING"
-                                },
-                                "operator": "EQUAL",
-                                "right": {
-                                    "type": "JSON_LITERAL",
-                                    "value": true
-                                }
-                            },
-                            "type": "BINARY"
-                        },
-                        "declarativeAction": null,
-                        "event": {
-                            "apiName": "polaris_app_shell.CONTENT_ITEMS_SELECTED",
-                            "payload": {
-                                "container": {
-                                    "items": {
-                                        "binding": {
-                                            "address": [
-                                                "items"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "options": {
-                                        "binding": {
-                                            "address": [
-                                                "options"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "sysId": {
-                                        "binding": {
-                                            "address": [
-                                                "sysId"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "table": {
-                                        "binding": {
-                                            "address": [
-                                                "table"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    }
-                                },
-                                "type": "MAP_CONTAINER"
-                            }
-                        },
-                        "operation": null,
-                        "targetId": "contentItemsSelectedTarget",
-                        "type": "EVENT"
-                    }
-                ]
-            },
-            {
-                "eventMappingId": "form_ctrl_handle_phone_requested",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#PHONE_REQUESTED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_now_record_form.CTRL_RECORD#PHONE_REQUESTED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "bundleLinks": [
-                            {
-                                "bundleInstanceId": "form_1",
-                                "elementType": "eventMappingTarget"
-                            }
-                        ],
-                        "clientScript": null,
-                        "conditional": {
-                            "operation": {
-                                "left": {
-                                    "binding": {
-                                        "address": [
-                                            "record",
-                                            "inputs",
-                                            "isMappedToAppShell"
-                                        ]
-                                    },
-                                    "type": "DATA_OUTPUT_BINDING"
-                                },
-                                "operator": "EQUAL",
-                                "right": {
-                                    "type": "JSON_LITERAL",
-                                    "value": true
-                                }
-                            },
-                            "type": "BINARY"
-                        },
-                        "declarativeAction": null,
-                        "event": {
-                            "apiName": "polaris_app_shell.RECORD#OPEN_CALL",
-                            "payload": {
-                                "container": {
-                                    "fields": {
-                                        "container": {
-                                            "opened": {
-                                                "type": "JSON_LITERAL",
-                                                "value": true
-                                            }
-                                        },
-                                        "type": "MAP_CONTAINER"
-                                    },
-                                    "iconSelected": {
-                                        "type": "JSON_LITERAL",
-                                        "value": true
-                                    },
-                                    "params": {
-                                        "container": {
-                                            "number": {
-                                                "binding": {
-                                                    "address": [
-                                                        "phoneNumber"
-                                                    ]
-                                                },
-                                                "type": "EVENT_PAYLOAD_BINDING"
-                                            },
-                                            "source": {
-                                                "type": "JSON_LITERAL",
-                                                "value": "form_field"
-                                            },
-                                            "sysId": {
-                                                "binding": {
-                                                    "address": [
-                                                        "sysid"
-                                                    ]
-                                                },
-                                                "type": "EVENT_PAYLOAD_BINDING"
-                                            },
-                                            "table": {
-                                                "binding": {
-                                                    "address": [
-                                                        "table"
-                                                    ]
-                                                },
-                                                "type": "EVENT_PAYLOAD_BINDING"
-                                            }
-                                        },
-                                        "type": "MAP_CONTAINER"
-                                    },
-                                    "route": {
-                                        "type": "JSON_LITERAL",
-                                        "value": "cti"
-                                    }
-                                },
-                                "type": "MAP_CONTAINER"
-                            }
-                        },
-                        "operation": null,
-                        "targetId": "openCallTarget",
-                        "type": "EVENT"
-                    }
-                ]
-            },
-            {
-                "eventMappingId": "srp_ui_ctrl_handle_set_loading_state",
-                "isConfiguration": false,
-                "offRowStorageId": null,
-                "sourceEventApiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
-                "sourceEventCorrelationId": null,
-                "sourceEventDefinition": {
-                    "apiName": "sn_now_record_form.CTRL_RECORD#FORM_LOADING_STATE_CHANGED",
-                    "id": null,
-                    "type": "UXEVENT"
-                },
-                "sourceEventSysId": null,
-                "targets": [
-                    {
-                        "broker": null,
-                        "bundleLinks": [
-                            {
-                                "bundleInstanceId": "form_1",
-                                "elementType": "eventMappingTarget"
-                            }
-                        ],
-                        "clientScript": null,
-                        "conditional": {
-                            "operation": {
-                                "left": {
-                                    "binding": {
-                                        "address": [
-                                            "record",
-                                            "inputs",
-                                            "isMappedToAppShell"
-                                        ]
-                                    },
-                                    "type": "DATA_OUTPUT_BINDING"
-                                },
-                                "operator": "EQUAL",
-                                "right": {
-                                    "type": "JSON_LITERAL",
-                                    "value": true
-                                }
-                            },
-                            "type": "BINARY"
-                        },
-                        "declarativeAction": null,
-                        "event": {
-                            "apiName": "sn_uxf_page.NOW_UXF_PAGE#SET_LOADING_STATE",
-                            "payload": {
-                                "container": {
-                                    "label": {
-                                        "binding": {
-                                            "address": [
-                                                "label"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    },
-                                    "loading": {
-                                        "binding": {
-                                            "address": [
-                                                "loading"
-                                            ]
-                                        },
-                                        "type": "EVENT_PAYLOAD_BINDING"
-                                    }
-                                },
-                                "type": "MAP_CONTAINER"
-                            },
-                            "sysId": "0404f68486f1baab1dc7ef2a27a3de50"
-                        },
-                        "operation": null,
-                        "targetId": "ckfhflaybaaaaaaiddhhhaccccosggrff55",
-                        "type": "EVENT"
-                    }
-                ]
-            }
-        ],
-        "inputValues": {
-            "actionConfigId": {
-                "binding": {
-                    "address": [
-                        "actionConfigId"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "activityLogs": {
-                "binding": {
-                    "address": [
-                        "activityLogs"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "delayRecommendationFetching": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            },
-            "detailsContext": {
-                "binding": {
-                    "address": [
-                        "activityLogs"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "fields": {
-                "binding": {
-                    "address": [
-                        "fields"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "forcedViewName": {
-                "binding": {
-                    "address": [
-                        "views"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "headerConfigId": {
-                "binding": {
-                    "address": [
-                        "headerConfigId"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "highlightedValueConfigId": {
-                "binding": {
-                    "address": [
-                        "highlightedValueConfigId"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "inputExtraParams": {
-                "binding": {
-                    "address": [
-                        "extraParams"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "inputQuery": {
-                "binding": {
-                    "address": [
-                        "query"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "inputSysId": {
-                "binding": {
-                    "address": [
-                        "sysId"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "inputTable": {
-                "binding": {
-                    "address": [
-                        "table"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "isMappedToAppShell": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "overrideAppContextConfigIds": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "ribbonConfigId": {
-                "binding": {
-                    "address": [
-                        "ribbonConfigId"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "screen": {
-                "binding": {
-                    "address": [
-                        "screen"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "selectedTabIndex": {
-                "binding": {
-                    "address": [
-                        "selectedTabIndex"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "shouldSuppressGlobalEvents": {
-                "type": "JSON_LITERAL",
-                "value": true
-            },
-            "sysparmView": {
-                "binding": {
-                    "address": [
-                        "sysparmView"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "userPrefs": {
-                "binding": {
-                    "address": [
-                        "userPrefs"
-                    ],
-                    "category": "props"
-                },
-                "type": "CONTEXT_BINDING"
-            },
-            "viewRuleConfigId": {
-                "binding": {
-                    "address": [
-                        "viewRuleConfigId"
-                    ],
-                    "category": "app"
-                },
-                "type": "CONTEXT_BINDING"
-            }
-        },
-        "preset": {
-            "id": "c22a5b134fb2351043475c11b1ce0ba8"
-        },
-        "readEvaluationMode": "EAGER"
-    },
-    {
         "definition": {
             "id": "5865e308432021105571609dc7b8f23b",
             "type": "CONTROLLER"
@@ -9606,11 +9021,150 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "dc6e87a5232200100e4bc50947bf654b",
+            "type": "CLIENT_STATE"
+        },
+        "elementId": "next_needit_form_FJA",
+        "elementLabel": "Next NeedIt Form (FJA Glide)",
+        "eventMappings": [],
+        "inputValues": {
+            "actionConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "actionLayoutId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "delayRecommendationFetching": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "detailsContext": {
+                "binding": {
+                    "address": [
+                        "activityLogs"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "formGQLDataBrokerOutput": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "formParams": {
+                "type": "JSON_LITERAL",
+                "value": "{}"
+            },
+            "headerConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "highlightedValueConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inFormController": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "isLfpEnabled": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "oneExtendConfig": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "requireExplicitEventMapping": {
+                "type": "JSON_LITERAL",
+                "value": "false"
+            },
+            "ribbonConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "shouldDisplayFormErrorsAsPageAlerts": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "shouldSuppressGlobalEvents": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showActivityStreamInDetails": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "skipRelatedListEval": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "my_next_needit_FJA",
+                        "results",
+                        "0",
+                        "_row_data",
+                        "uniqueValue"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_58872_needit_needit"
+            },
+            "view": {
+                "type": "JSON_LITERAL",
+                "value": "Default view"
+            },
+            "viewRuleConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "67566b46c367fe103755b34ed401319a",
+            "type": "TRANSFORM"
+        },
+        "elementId": "add_user_to_text_string__fja__1",
+        "elementLabel": "Add User to Text String (FJA) 1",
+        "eventMappings": [],
+        "inputValues": {
+            "userFullName": {
+                "binding": {
+                    "address": [
+                        "user",
+                        "fullName"
+                    ],
+                    "category": "session"
+                },
+                "type": "CONTEXT_BINDING"
+            }
+        },
+        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events>53c78c91c36ff6103755b34ed40131ee</dispatched_events>
+        <dispatched_events>b8f59bc2c3e3fe103755b34ed40131ea</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -9632,7 +9186,7 @@
                     "type": "JSON_LITERAL",
                     "value": {}
                 },
-                "sysId": "03dc4275c3eb3e103755b34ed40131b7"
+                "sysId": "b4f59bc2c3e3fe103755b34ed40131dc"
             },
             "clientTransformScript": "",
             "conditional": null,
@@ -9698,7 +9252,7 @@
     "version": "3.1.0"
 }</layout>
         <macroponent_dependencies/>
-        <name>NeedIt Admin home (FJA)</name>
+        <name>NeedIt Admin home (FJA) GlideForm</name>
         <output_prop_mapping/>
         <props>[
     {
@@ -9898,30 +9452,6 @@
   "code" : "",
   "comment" : ""
 }, {
-  "message" : "Example 1",
-  "code" : "",
-  "comment" : ""
-}, {
-  "message" : "Example 2",
-  "code" : "",
-  "comment" : ""
-}, {
-  "message" : "Example 3",
-  "code" : "",
-  "comment" : ""
-}, {
-  "message" : "Example value 1",
-  "code" : "",
-  "comment" : ""
-}, {
-  "message" : "Example value 2",
-  "code" : "",
-  "comment" : ""
-}, {
-  "message" : "Example value 3",
-  "code" : "",
-  "comment" : ""
-}, {
   "message" : "Facilities",
   "code" : "",
   "comment" : ""
@@ -9947,10 +9477,6 @@
   "comment" : ""
 }, {
   "message" : "List pane",
-  "code" : "",
-  "comment" : ""
-}, {
-  "message" : "My Next NeedIt FJA",
   "code" : "",
   "comment" : ""
 }, {
@@ -10092,16 +9618,16 @@
         <style_config>{}</style_config>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-04 09:11:05</sys_created_on>
-        <sys_id>957f052fc39b36103755b34ed401319e</sys_id>
-        <sys_mod_count>159</sys_mod_count>
-        <sys_name>NeedIt Admin home (FJA)</sys_name>
+        <sys_created_on>2026-03-12 13:23:30</sys_created_on>
+        <sys_id>24f55bc2c3e3fe103755b34ed40131d8</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>NeedIt Admin home (FJA) GlideForm</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ux_macroponent_957f052fc39b36103755b34ed401319e</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_24f55bc2c3e3fe103755b34ed40131d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-12 10:38:41</sys_updated_on>
+        <sys_updated_on>2026-03-12 14:44:21</sys_updated_on>
     </sys_ux_macroponent>
-    <sys_translated_text action="delete_multiple" query="documentkey=957f052fc39b36103755b34ed401319e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=24f55bc2c3e3fe103755b34ed40131d8"/>
 </record_update>
